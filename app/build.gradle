@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 25
@@ -47,3 +46,5 @@ dependencies {
     compile 'com.google.firebase:firebase-messaging:11.0.1'
 
 }
+
+apply plugin: 'com.google.gms.google-services'
